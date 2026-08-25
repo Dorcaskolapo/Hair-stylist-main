@@ -15,7 +15,7 @@ header {
     min-height: 300px;
     padding: 20px 40px;
 
-    background-color: black;
+    background-color: #ccc;
     background-image: url("images/img.jpg");
     background-size: cover;
     background-position: center;
@@ -61,7 +61,7 @@ nav li {
 }
 
 nav a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 18px;
 }
@@ -174,16 +174,12 @@ footer p {
 
     nav ul {
         display: none;
-
         width: 100%;
-
         flex-direction: column;
-
         gap: 0;
-
         margin-top: 20px;
-
-        background-color: black;
+        background-color: white;
+        color: black;
     }
 
 
@@ -191,12 +187,10 @@ footer p {
 
     nav li {
         display: block;
-
         width: 100%;
-
         padding: 12px 0;
-
         text-align: center;
+        color: black;
     }
 
 
