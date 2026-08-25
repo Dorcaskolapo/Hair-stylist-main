@@ -1,0 +1,134 @@
+
+body{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*HEADER*/
+header{
+  padding:20px;
+  height:400px;
+  background-color:black;
+  background-image: url("images/img.jpg");
+  background-size: 100%;
+  background-position: center  ;
+  color: aliceblue;
+  text-align: center;
+}
+header a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+header .logo a{
+background-image:url("images/logo.webp");
+background-size:250px;
+background-repeat:no-repeat;
+display:inline-block;
+height:130px;  
+position:relative;
+text-indent:-9999999px;
+top:-30px;
+width:238px;
+border-radius: 15%;
+}
+header .mobile {
+  display: none;
+
+}
+/*FEATURES*/
+
+.features{
+  background:white;
+  color:gray;
+  padding:20px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+nav ul{
+  list-style: none;
+  padding:0;
+}
+nav li {
+  display:inline-block;
+  padding: 2px;
+  margin-left: 20px;
+}
+
+
+.menu{
+  display: none;
+}
+
+/*RESPONSIVE ROLES*/
+@media screen and  (min-width:0) and(max-width: 480px){
+  
+  nav ul{
+  list-style: none;
+  padding:0;
+}
+  nav li {
+  display:inline-block;
+  padding: 2px;
+  margin-left: 20px;
+}
+header .logo a{
+background-image:url("images/logo.webp");
+background-size:250px;
+background-repeat:no-repeat;
+display:inline-block;
+height:130px;  
+position:relative;
+text-indent:-9999999px;
+top:-30px;
+width:238px;
+border-radius: 15%;
+}
+
+.menu{
+    display: inline;
+
+  }
+
+}
+
+
+
+@media screen and (max-width: 723px) {
+  header {
+    height: 200px;
+    
+  }
+  header .mobile{
+    display: inline-block;
+  }
+  header .desktop{
+    display: none;
+  }
+  }
+  
+
+.features figure{
+  margin:auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 200px;
+}
+.features figure img{
+  width:200px;
+  border-radius: 50%;
+  box-shadow: grey 0 0 10px;
+  border: 1px solid;
+  color: white;
+  height: 200px;
+}
+/*FOOTER*/
+footer{
+  background: black;
+  color: gray;
+  padding: 20px;
+  text-align: center;
+  font-size: 12px;
+}
